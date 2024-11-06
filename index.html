@@ -1,56 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portfólio - Patrick Moura da S.</title>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Seu Nome</h1>
-        <p>Desenvolvedor Web | Designer Gráfico | [Outras áreas]</p>
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#trabalhos">Trabalhos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Sou um [sua profissão] formado pela Alura, apaixonado por [área de interesse].</p>
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um estudante do col prof Maria Luiza franco Pacheco
     </section>
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Linguagens de Programação: HTML, CSS, JavaScript</li>
-            <li>Frameworks: React, Node.js</li>
-            <li>Ferramentas: Figma, Git</li>
-        </ul>
-    </section>
+    <section id="trabalhos" class="section">
+        <div class="container">
+            <h2>Meus Trabalhos</h2>
+            <div class="trabalhos-container">
+                <!-- Trabalho 1 -->
+                <div class="trabalho">
+                    <img src="https://github.com/tickgtz/biblioteca.git" alt="Trabalho 1">
+                    <h3>Projeto Web 1</h3>
+                    <p>Descrição do trabalho 1. Um site respositorio de uma biblioteca online...</p>
 
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <article>
-            <h3>Nome do Projeto 1</h3>
-            <p>Descrição do projeto 1.</p>
-            <p>Tecnologias: HTML, CSS, JavaScript</p>
-            <a href="#">Ver Projeto</a>
-        </article>
-        <article>
-            <h3>Nome do Projeto 2</h3>
-            <p>Descrição do projeto 2.</p>
-            <p>Tecnologias: React, Node.js</p>
-            <a href="#">Ver Projeto</a>
-        </article>
-    </section>
+                <!-- Trabalho 2 -->
+                <div class="trabalho">
+                    <img src="https://github.com/tickgtz/site-colegio.git" alt="Trabalho 2">
+                    <h3>Projeto Web 2</h3>
+                    <p>Descrição do trabalho 2. Um aplicativo desenvolvido para um site do site-colegio ...</p>
+                </div>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: seuemail@example.com</p>
-        <p>LinkedIn: <a href="#">link do seu perfil</a></p>
-        <p>GitHub: <a href="#">link do seu GitHub</a></p>
+                <!-- Trabalho 3 -->
+                <div class="trabalho">
+                    <img src="https://github.com/tickgtz/tabela-de-estudos-.git" alt="Trabalho 3">
+                    <h3>Projeto Web 3</h3>
+                    <p>Descrição do trabalho 3. Um trabalho desenvolvido para uma tabela...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Seu Nome</p>
+        <div class="container">
+            <p>&copy; 2024 Meu Portfólio. todos os trabalhos do ano.</p>
+        </div>
     </footer>
 </body>
 </html>
